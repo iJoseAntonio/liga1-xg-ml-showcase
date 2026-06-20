@@ -38,7 +38,7 @@ Los 4 modelos mostraron un desempeño **relativamente cercano entre sí** (difer
 ## Datos de entrenamiento y validación
 
 - **Train/Test (80/20, división temporal)**: partidos de la Liga 1 desde **2023** hasta el **27/04/2026** (`bd_liga1_Peru_entrenamiento.csv`). La división es cronológica, no aleatoria, para evitar que el modelo "vea" partidos futuros durante el entrenamiento.
-- **Backtesting real**: el modelo ya entrenado se evaluó contra los resultados reales de las **jornadas 13, 14, 15, 16 y 17** (partidos posteriores al corte de entrenamiento, nunca vistos por el modelo), usando `bd_liga1_apertura_ronda_17.csv`. En este backtesting el modelo de `Goles ≥ 2` obtuvo **58.89% de accuracy** sobre 90 partidos evaluados, con resultados por ronda de 61%, 33%, 67%, 78% y 56% respectivamente.
+- **Backtesting real**: el modelo ya entrenado se evaluó contra los resultados reales de las **jornadas 13, 14, 15, 16 y 17** (partidos posteriores al corte de entrenamiento, nunca vistos por el modelo). En este backtesting el modelo de `Goles ≥ 2` obtuvo **58.89% de accuracy** sobre 90 partidos evaluados, con resultados por ronda de 61%, 33%, 67%, 78% y 56% respectivamente.
 
 ## Stack tecnológico
 
